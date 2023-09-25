@@ -154,3 +154,16 @@ body {
     width: 0;
   }
 }
+
+@media (max-width: 768px) {
+  /* Styles for screens smaller than or equal to 768px */
+  .navbar a {
+    margin-left: 15px; /* Adjust spacing for smaller screens */
+    margin-top: 20px; /* Adjust spacing for smaller screens */
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
